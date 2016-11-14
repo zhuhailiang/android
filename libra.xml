@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="bucket"
+    fetch="https://bitbucket.org/" />
+
+    <!-- Trebuchet temp fix -->
+    <remove-project name="CyanogenMod/android_packages_apps_Trebuchet" />
+    <project path="packages/apps/Trebuchet" name="Xiaomi-Mi4c-CyanogenMod-14/android_packages_apps_Trebuchet" remote="github" revision="cm-14.1" />
+
+    <!-- Device -->
+    <project path="device/xiaomi/libra" name="Xiaomi-Mi4c-CyanogenMod-14/android_device_xiaomi_libra" remote="github" revision="cm-14.1" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/libra" name="Xiaomi-Mi4c-CyanogenMod-14/android_kernel_xiaomi_libra" remote="github" revision="cm-14.1" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi" name="Xiaomi-Mi4c-CyanogenMod-14/proprietary_vendor_xiaomi" remote="github" revision="cm-14.1" />
+
+    <!-- QCOM common -->
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
+
+    <!-- STLport -->
+    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1" />
+
+    <!-- Toolchains -->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" revision="master" />
+
+    <!-- SDClang -->
+    <project path="prebuilts/clang/linux-x86/host/sdclang-3.8" name="mdalexca/sdclang-3.8" remote="bucket" revision="master" />
+
+    <!-- msm8994 -->
+    <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
+
+    <!-- boringssl-compat -->
+    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
+
+    <!-- qcom binaries -->
+    <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
+
+</manifest>
